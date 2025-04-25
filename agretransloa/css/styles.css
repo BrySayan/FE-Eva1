@@ -4,9 +4,70 @@
 }
 
 body {
+    display: flexbox;
     font-family: segoi-ui;
 }
 
-img {
-    max-width: 100%;
+
+header h1 {
+    size: 5.8rem;
+    color: #053477;
+}
+
+.img-header{
+    height: 50rem;
+    background-image:url(/agretransloa/img/site-header-background.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+.img-header:hover a {
+    background-color: gray;
+}
+
+.nuestro-trabajo {
+    flex-direction: column;
+}
+
+.nuestro-equipo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nuestro-equipo h2 {
+    align-items: center;
+}
+
+.nuestro-equipo h3 {
+    size: 2.5rem;
+    color: #f75f1c;
+}
+
+.nuestro-equipo p {
+    size: 1.8rem;
+    color: #053477;
+}
+
+.equipo {
+    flex-wrap: wrap;
+    width: 25rem;
+    margin: 1rem;
+    padding: 1rem;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-ne {
+    width: 25rem;
+}
+
+.title-ne {
+    align-items: center;
+    text-align: center;
 }

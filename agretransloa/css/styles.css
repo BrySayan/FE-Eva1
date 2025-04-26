@@ -3,10 +3,135 @@
     src: url('../segoe-ui-4-cufonfonts/Segoe\ UI.ttf');
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
 body {
     font-family: segoi-ui;
 }
 
 img {
     max-width: 100%;
+}
+
+.nuestro-trabajo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.title-nt {
+    margin: 2rem;
+    color: #2A4B7A;
+}
+
+.title-nt h2 {
+   font-size: 5rem;
+}
+
+.container-nt {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-nt {
+    width: 8rem;
+    margin: 1rem 2rem 1rem 1rem;
+}
+
+.nt {
+    width: 48rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.nt p {
+    color: #053477;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.nt h3 {
+    font-size: 5rem;
+    color: #F75F1C;
+}
+
+.contact {
+    background-color: #2A4B7A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.contacto {
+    color: white;
+    flex-direction: column;
+    margin-right: 8rem;
+    padding: 2rem;
+    width: 15rem;
+}
+
+.contacto h2 {
+    color: #F75F1C;
+    font-size: 5rem;
+}
+
+.contacto li {
+    margin-top: 1rem;
+    list-style-type: none;
+}
+
+.info-per {
+    padding: 2rem;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.info-per legend {
+    color: #F75F1C;
+    font-size: 2.2rem;
+}
+
+.info-per label {
+    display: inline-block;
+    color: #ffffff;
+    width: 8rem;
+}
+
+.info-per input {
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 50rem;
+}
+
+.info-per select {
+    width: 50rem;
+}
+
+.info-per textarea {
+    width: 50rem;
+}
+
+.boton {
+    color: #ffffff;
+    background-color: #E35619;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+
 }
